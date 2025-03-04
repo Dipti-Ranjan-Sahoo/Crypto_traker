@@ -1,0 +1,44 @@
+.coinDetailsContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.backButton {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #333;
+}
+
+.coinImage {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-size: 24px;
+  margin: 50px 0;
+}
